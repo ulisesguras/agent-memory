@@ -1,0 +1,53 @@
+# Agent Memory — .gitignore
+
+# ── Python ───────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.Python
+
+# ── Virtual environments ─────────────────────────
+venv/
+env/
+.env
+.venv
+ENV/
+
+# ── Environment & secrets ────────────────────────
+.env
+.env.local
+.env.production
+*.key
+secrets.json
+
+# ── Agent data (local only — not for the repo) ───
+data/
+*.json.bak
+
+# ── IDE ──────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Testing ──────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── Logs ─────────────────────────────────────────
+*.log
+logs/
+
+# ── Compiled ─────────────────────────────────────
+*.pyc
+*.pyo
