@@ -312,7 +312,7 @@ Compatible LLMs: Anthropic Claude · Google Gemini · OpenAI · Ollama · Any
 
 ## License
 
-MIT — use it, embed it, build on it.
+Apache 2.0 — use it, embed it, build on it.
 
 ---
 
